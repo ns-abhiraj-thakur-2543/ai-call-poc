@@ -220,7 +220,7 @@ function App() {
           </label>
 
           <label>
-            Name
+            Candidate Name
             <input
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -242,7 +242,7 @@ function App() {
             <input
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
-              placeholder="+91 98765 43210"
+              placeholder="(555) 123-4567"
               required
             />
             {phoneNumber.trim() && !isPhoneValid && (
@@ -346,7 +346,7 @@ function App() {
               checked={candidateInto}
               onChange={(e) => setCandidateInto(e.target.checked)}
             />
-            Candidate Into
+            Candidate Intro
           </label>
 
           <label className="checkbox-row">
