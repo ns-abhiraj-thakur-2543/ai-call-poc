@@ -242,7 +242,7 @@ function App() {
             <input
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
-              placeholder="(555) 123-4567"
+              placeholder="+1 (555) 123-4567"
               required
             />
             {phoneNumber.trim() && !isPhoneValid && (
