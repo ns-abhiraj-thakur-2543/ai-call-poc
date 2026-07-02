@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 
-const API_URL = "/api/call_interview_demo";
+const API_BASE_URL = "https://devai.careerforcepro.com/api";
+const API_URL = `${API_BASE_URL}/call_interview_demo`;
 
 const DEFAULT_GENERAL_QUESTIONS = [
   "How did you hear about this opportunity?",
